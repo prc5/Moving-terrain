@@ -7,7 +7,7 @@ var scene = new THREE.Scene();
 		document.body.appendChild( renderer.domElement );
 
 		var geometry = new THREE.PlaneGeometry( 300, 300, rows, cols );
-		var material = new THREE.MeshLambertMaterial( { color: 0xffffff, wireframe:false } );
+		var material = new THREE.MeshLambertMaterial( { color: 0xffffff, wireframe:true } );
 		var mesh = new THREE.Mesh( geometry, material );
         
         // Height map arrays
