@@ -1,2 +1,2 @@
 # Moving-terrain
-Moving terrain WITHOUT perlin noise 
+Moving terrain with perlin noise 
